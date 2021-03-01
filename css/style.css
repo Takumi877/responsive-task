@@ -532,8 +532,8 @@ body {
   }
   
   .header-logo {
-    position: relative;
-    right: 25%;  
+    position: static;
+    right: 50%;  
   }
 /* -----firstview---- */
   #firstview {
@@ -604,8 +604,7 @@ body {
   }
 
   /* -----footer----- */
-  .header-logo {
+  .top-footer h1 {
     margin: auto;
   }
-
 }
