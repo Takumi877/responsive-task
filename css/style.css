@@ -530,6 +530,11 @@ body {
   .header-nav {
     display: none;
   }
+  
+  .header-logo {
+    position: relative;
+    right: 25%;  
+  }
 /* -----firstview---- */
   #firstview {
     display: block;
@@ -559,7 +564,7 @@ body {
   /* -----service----- */
   .service {
     flex-wrap: wrap;
-    height: 1000px;
+    height: 1150px;
   }
 
   .service-img {
@@ -568,19 +573,12 @@ body {
   }
 
   .service-content_inner {
+    position: static;
     width: 80%;
-    margin: 43% 100% 0 -10%;
-    padding: 5px;
-  }
-
-  .service-img_second {
-    width: 80%;
-    margin-top: 60%;
+    margin: auto;
   }
 
   .service-content_inner-second {
-    top: 0;
-    left: 20%;
   }
 
   /* -----company----- */
